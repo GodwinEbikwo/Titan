@@ -32,7 +32,7 @@
       h1 {
         color: $whiteBlack;
         font-weight: 600;
-        font-size: 4rem;
+        font-size: 5rem;
         letter-spacing: -2px;
 
         @include mq($from: mobile, $until: desktop) {
@@ -70,9 +70,8 @@
       }
 
       .btn {
-        border-radius: 30px;
+        border-radius: 3px;
         font-weight: 500;
-
         @include mq($from: mobile, $until: desktop) {
           font-size: 1.25rem;
         }

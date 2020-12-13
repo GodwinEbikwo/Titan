@@ -51,15 +51,12 @@
           font-size: 2.5rem;
           max-width: 95vw;
           background: linear-gradient(
-            75deg,
-            rgb(137, 131, 186),
-            rgb(158, 152, 204) 20%,
-            rgb(194, 154, 190) 38%,
-            rgb(225, 151, 176) 56%,
-            rgb(255, 154, 125) 74%,
-            rgb(255, 180, 103) 84%,
-            rgb(255, 218, 142)
+            90deg,
+            rgb(144, 202, 90),
+            rgb(215, 214, 90) 50%,
+            rgb(218, 195, 85) 70%
           );
+
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           -moz-background-clip: text;
@@ -85,13 +82,11 @@
           flex-direction: column;
           align-items: flex-start;
           .bf-bold {
-            font-weight: 600;
-            color: $whiteBlack;
+            font-weight: 500;
           }
 
           .bf-p {
             margin-bottom: 0.375rem;
-            color: $whiteBlack;
           }
         }
       }
@@ -131,8 +126,9 @@
         background-color: #f8f9d2;
         background: radial-gradient(
           76.75% 76.75% at 70% 23.25%,
-          #8fe74a 0%,
-          #44e6b5 100%
+          #bceeeb 0%,
+          #e1eebc 0.01%,
+          #bcd9ee 100%
         );
         backdrop-filter: blur(42px);
       }

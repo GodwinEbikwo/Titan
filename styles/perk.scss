@@ -36,7 +36,7 @@
         margin-top: 1rem;
         color: $whiteBlack;
         font-size: 3.5rem;
-        max-width: 35vw;
+        max-width: 45vw;
         line-height: 125%;
         font-weight: 600;
         letter-spacing: -2px;
@@ -219,9 +219,10 @@
 
               span {
                 letter-spacing: -2px;
-                font-size: 1.4em;
+                font-size: 1.2em;
                 text-transform: uppercase;
                 color: $whiteBlack;
+
                 font-weight: 600;
                 &:not(:last-child) {
                   margin-right: 20px;
@@ -250,7 +251,7 @@
               span {
                 display: inline-block;
                 color: $whiteBlack;
-                font-size: 1rem;
+                font-size: 0.5rem;
                 margin-top: 1em;
               }
 
@@ -265,31 +266,4 @@
       }
     }
   }
-}
-
-.savings-asset {
-  position: relative;
-  left: auto;
-  top: auto;
-  right: -5%;
-  bottom: 0%;
-  display: flex;
-  width: 50%;
-  height: 70%;
-  justify-content: center;
-  align-items: center;
-}
-
-.save-inner {
-  position: absolute;
-  bottom: -5rem;
-  display: flex;
-  max-height: 40rem;
-  min-height: 40rem;
-  min-width: 28.125rem;
-  padding-left: 2.5rem;
-  justify-content: center;
-  align-items: center;
-  perspective: 125rem;
-  perspective-origin: 0% 50%;
 }
