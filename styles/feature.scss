@@ -125,7 +125,7 @@
           color: $whiteBlack;
           letter-spacing: -2px;
           @include mq($from: mobile, $until: tablet) {
-            font-size: 2.485rem;
+            font-size: 2.43rem;
             background: linear-gradient(
               75deg,
               rgb(137, 131, 186),

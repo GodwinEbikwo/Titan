@@ -35,7 +35,7 @@
         font-size: 5rem;
         letter-spacing: -2px;
         @include mq($from: mobile, $until: desktop) {
-          font-size: 2.95rem;
+          font-size: 2.9rem;
           text-align: center;
           margin-bottom: 0;
           background-color: #f5d020;
@@ -51,7 +51,7 @@
         }
 
         @include for-size(iphoneX-only) {
-          font-size: 2.65rem;
+          font-size: 2.6rem;
         }
         @include for-size(tablet-portrait-up) {
           font-size: 3.5rem;

@@ -1,11 +1,14 @@
 .cta {
   position: relative;
   min-height: 100vh;
-  background-image: radial-gradient(
-    circle farthest-corner at 50% 100%,
-    rgba(255, 173, 138, 0.58),
-    transparent 70%
-  );
+  @include mq($from: tablet) {
+    background-image: radial-gradient(
+      circle farthest-corner at 50% 110%,
+      rgba(255, 173, 138, 0.58),
+      transparent 25%
+    );
+  }
+
   .cta_center {
     position: absolute;
     top: 50%;
