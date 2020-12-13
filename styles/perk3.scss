@@ -1,7 +1,11 @@
 .P-three {
-  background-color: #161616;
   min-height: 100vh;
-
+  background-color: #f7f7f7;
+  // background-image: radial-gradient(
+  //   circle farthest-corner at 50% 50%,
+  //   rgba(138, 198, 255, 0.58),
+  //   transparent 105%
+  // );
   .p3_grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -27,23 +31,25 @@
       .p3-label {
         margin-bottom: 1.125rem;
         padding-top: 0.5rem;
-        color: rgba(255, 255, 255, 0.7);
+        color: $whiteBlack;
         font-size: 1.35rem;
         text-transform: uppercase;
       }
 
       .p3-title {
-        color: rgba(255, 255, 255, 0.9);
+        color: $whiteBlack;
         font-size: 3.6rem;
         max-width: 40vw;
         line-height: 125%;
         font-weight: 600;
         letter-spacing: -2px;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        padding: 0;
 
         @include mq($until: tablet) {
-          color: rgba(255, 255, 255, 0.9);
           font-size: 2.5rem;
-          max-width: 85vw;
+          max-width: 95vw;
           background: linear-gradient(
             75deg,
             rgb(137, 131, 186),
@@ -59,6 +65,9 @@
           -moz-background-clip: text;
           -moz-text-fill-color: transparent;
         }
+        @include for-size(iphoneX-only) {
+          font-size: 2.25rem;
+        }
       }
 
       .p3_features {
@@ -66,21 +75,19 @@
         grid-gap: 1rem;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-column-gap: 1rem;
-        margin-top: 3em;
-
+        margin-top: 2.5em;
         .p3_feature {
           margin-bottom: 1rem;
           flex-direction: column;
           align-items: flex-start;
-
           .bf-bold {
             font-weight: 600;
-            color: rgba(255, 255, 255, 0.9);
+            color: $whiteBlack;
           }
 
           .bf-p {
             margin-bottom: 0.375rem;
-            color: rgba(255, 255, 255, 0.7);
+            color: $whiteBlack;
           }
         }
       }
@@ -133,7 +140,6 @@
           left: 0px;
           top: 70px;
         }
-
         width: 350px;
         height: 200px;
         left: 20px;

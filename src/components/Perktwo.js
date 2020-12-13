@@ -8,7 +8,9 @@ export default function Perktwo() {
       <div className="perktwo_container container container--pall">
         <div className="perktwo-left">
           <span className="perk-label">Savings</span>
-          <h2 className="perk-title">Unlimited daily cash back</h2>
+          <h2 className="perk-title">
+            Unlimited daily cash back on everything
+          </h2>
 
           <div className="save-features">
             <SaveFeature
@@ -46,8 +48,8 @@ export default function Perktwo() {
 const SaveFeature = ({ title, content }) => {
   return (
     <div className="save-feature">
-      <div className="bf-bold">{title}</div>
-      <p className="bf-p">{content}</p>
+      <div className="sf-bold">{title}</div>
+      <p className="sf-p">{content}</p>
     </div>
   );
 };
