@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="hero" data-scroll-section>
       <div className="container container--pall">
-        <div className="grid">
+        <div className="h-grid">
           <div className="left">
             <h1>The most transparent and secure bank ever.</h1>
             <p>

@@ -58,6 +58,9 @@
           -moz-background-clip: text;
           -moz-text-fill-color: transparent;
         }
+        @include for-size(iphone5-6) {
+          font-size: 2rem;
+        }
 
         @include for-size(iphoneX-only) {
           font-size: 2.25rem;

@@ -28,7 +28,11 @@ $breakpoints-down: (
 }
 
 @mixin for-size($size) {
-  @if $size == iphoneX-only {
+  @if $size == iphone5-6 {
+    @media only screen and (min-device-width: 20em) and (max-device-width: 23.4375em) and (-webkit-min-device-pixel-ratio: 2) {
+      @content;
+    }
+  } @else if $size == iphoneX-only {
     @media only screen and (min-device-width: 23.4375em) and (max-device-width: 23.45em) and (-webkit-min-device-pixel-ratio: 3) {
       @content;
     }
