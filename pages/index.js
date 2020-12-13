@@ -6,6 +6,7 @@ import Hero from "../src/components/hero";
 import Feature from "../src/components/feature";
 import Perktwo from "../src/components/Perktwo";
 import PerkThree from "../src/components/PerkThree";
+import Cta from "../src/components/Cta";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Feature />
         <Perktwo />
         <PerkThree />
+        <Cta />
       </Layout>
     </SmoothScrollProvider>
   );
