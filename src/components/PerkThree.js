@@ -30,7 +30,7 @@ export default function PerkThree() {
             </div>
 
             <div className="name">
-              <h1>Savannah Hobbs</h1>
+              <h1>Stacey Funke Dash</h1>
               <Image
                 src="/credit-card.svg"
                 width={40}
