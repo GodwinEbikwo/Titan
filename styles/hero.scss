@@ -1,8 +1,9 @@
 .hero {
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .h-grid {
-    margin: 1rem 0 0 0;
-    padding: 2rem 0 0 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;

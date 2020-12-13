@@ -1,6 +1,9 @@
 .P-three {
   min-height: 100vh;
   background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   .p3_grid {
     display: grid;
