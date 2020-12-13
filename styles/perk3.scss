@@ -119,9 +119,9 @@
         border-radius: 50%;
         background-color: #f8f9d2;
         background: radial-gradient(
-          81.25% 81.25% at 67.32% 18.75%,
-          #17b3a9 0%,
-          #0945df 100%
+          76.75% 76.75% at 70% 23.25%,
+          #8fe74a 0%,
+          #44e6b5 100%
         );
         backdrop-filter: blur(42px);
       }
@@ -234,12 +234,12 @@
           display: flex;
           align-items: center;
           justify-content: space-between;
-          padding: 0.65em 0.5em 0 0.5em;
+          padding: 0.35em 0.5em 0 0.5em;
 
           h1 {
             font-size: 1.25rem;
             white-space: nowrap;
-            color: $whiteBlack;
+            margin: 0;
           }
 
           .cc {

@@ -42,11 +42,8 @@
           height: 450px;
           border-radius: 50%;
           animation: pulse-f 2s infinite;
-          background: radial-gradient(
-            76.75% 76.75% at 70% 23.25%,
-            #8fe74a 0%,
-            #44e6b5 100%
-          );
+          background-color: #cfc7f8;
+          background-image: linear-gradient(315deg, #cfc7f8 0%, #ebbba7 74%);
           z-index: 1;
 
           @keyframes pulse-f {
@@ -94,11 +91,8 @@
           left: 260px;
           width: 60px;
           height: 60px;
-          background: radial-gradient(
-            76.75% 76.75% at 70% 23.25%,
-            #72047b 0%,
-            #6709df 100%
-          );
+          background-color: #f9d1b7;
+          background-image: linear-gradient(315deg, #f9d1b7 0%, #f894a4 74%);
         }
       }
     }
@@ -125,7 +119,7 @@
         }
 
         .bc-title {
-          margin-bottom: 0.5rem;
+          margin-bottom: 0.25rem;
           font-size: 3.5rem;
           font-weight: 600;
           color: rgba(255, 255, 255, 0.9);
@@ -154,7 +148,7 @@
           grid-gap: 1rem;
           grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
           grid-column-gap: 1rem;
-          margin-top: 3em;
+          margin-top: 2em;
 
           .block-feature {
             margin-bottom: 1rem;
@@ -208,14 +202,13 @@
 
   .f-top {
     position: absolute;
-    top: 10;
+    top: 5px;
     left: 10px;
 
     span {
       font-weight: 600;
       text-transform: uppercase;
       margin-right: 0.9rem;
-      color: $whiteBlack;
     }
   }
 
