@@ -83,12 +83,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   font-kerning: normal;
-  background-image: radial-gradient(
-    circle farthest-corner at 50% 100%,
-    rgba(255, 173, 138, 0.58),
-    transparent 35%
-  );
-  object-fit: fill;
 }
 
 img {

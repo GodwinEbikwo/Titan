@@ -44,8 +44,8 @@ $breakpoints-down: (
     @media (min-width: 37.5em) {
       @content;
     }
-  } @else if $size == tablet-landscape-up {
-    @media (min-width: 56.25em) {
+  } @else if $size == ipad9 {
+    @media only screen and (min-device-width: 48em) and (max-device-width: 63.9375em) and (-webkit-min-device-pixel-ratio: 2) {
       @content;
     }
   } @else if $size == desktop-up {
