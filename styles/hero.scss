@@ -34,7 +34,6 @@
         font-weight: 600;
         font-size: 5rem;
         letter-spacing: -2px;
-
         @include mq($from: mobile, $until: desktop) {
           font-size: 2.95rem;
           text-align: center;
