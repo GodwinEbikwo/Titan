@@ -1,0 +1,39 @@
+//font-sizes
+$font-xsm: 0.8rem; //16px
+$font-sm: 1rem; //16px
+$font-md: 1.35rem; // 18px
+$font-lg: 2.2rem; // 20px
+$font-xlg: 3.5rem; // 52px
+
+//colors
+$black: #161815;
+$white: #fff;
+$pink-white: #ffe5bd;
+$off-black: rgba(39, 39, 39, 0.9);
+$off-white: rgba(255, 255, 255, 0.7);
+$semi-white: #fff5f0;
+$off-pink: rgba(255, 229, 189, 0.7);
+
+$whiteBlack: rgb(58, 58, 58);
+
+//hsl
+//colors
+$darkBlue: hsl(233, 26%, 24%);
+$grayishBlue: hsl(0, 0%, 34%);
+$lightGrayishBlue: hsl(220, 16%, 96%);
+$veryLightGray: hsl(0, 0%, 98%);
+$darkGreen: hsl(17, 89%, 82%);
+$lightGreen: hsl(98, 56%, 86%);
+$offWhite: hsla(239, 63%, 13%, 0.06);
+$red: hsl(360, 78%, 62%);
+$offBlack: hsl(240, 3%, 11%);
+$purple: hsl(298, 61%, 89%);
+$yellow: hsl(44, 95%, 71%);
+$softBlack: hsl(0, 0%, 20%);
+
+//utils
+$bg-color: #161616;
+$hl-color: #000;
+$muted-color: mix(white, $bg-color, 70%);
+$trans-time: 300ms;
+$width: 20rem;

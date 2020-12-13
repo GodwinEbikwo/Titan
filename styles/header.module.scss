@@ -1,0 +1,134 @@
+.header {
+  border-bottom: 1px dashed rgb(206, 206, 206);
+
+  @include breakpoint-down(small) {
+    padding: 1.4rem 1.55rem;
+  }
+
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav_logo {
+    img {
+      width: 8.8125rem;
+      height: 1.375rem;
+    }
+  }
+
+  .nav-options {
+    padding-left: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 50px;
+    list-style-type: none;
+  }
+
+  .mobile-option {
+    display: none;
+  }
+
+  .option {
+    a {
+      color: $white;
+    }
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  @include breakpoint-down(small) {
+    .nav-options {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      top: 60px;
+      left: -100%;
+      opacity: 0;
+      transition: all 350ms ease;
+      flex-direction: column;
+      list-style-type: none;
+      grid-gap: 0px;
+    }
+    .nav-options.active {
+      background: #232526;
+      background: -webkit-linear-gradient(to right, #414345, #232526);
+      background: linear-gradient(to right, #414345, #232526);
+      opacity: 10;
+      transition: all 350ms ease;
+      z-index: 9;
+      align-content: center;
+      left: 0%;
+    }
+
+    .menu-icon {
+      width: 40px;
+      height: 40px;
+    }
+    .option {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 0px;
+      a {
+        font-weight: 400;
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
+
+//desktop
+.dheader {
+  nav {
+    position: relative;
+    padding-top: 1.0625rem;
+    padding-bottom: 1.0625rem;
+  }
+
+  &__logo {
+    img {
+      width: 8.9125rem;
+      height: 1.375rem;
+    }
+  }
+
+  &__links {
+    a {
+      position: relative;
+      font-size: 0.975rem;
+      color: $whiteBlack;
+      transition: color 300ms ease-in-out;
+      text-transform: capitalize;
+      cursor: pointer;
+
+      &:not(:last-child) {
+        margin-right: 32px;
+      }
+
+      &:hover {
+        color: #000;
+
+        &::before {
+          opacity: 1;
+        }
+      }
+    }
+
+    .btn {
+      background: $offWhite;
+      // box-shadow: 0 2px 22px 0 rgba(101, 101, 102, 0.37);
+      // backdrop-filter: blur(9.5px);
+      // -webkit-backdrop-filter: blur(9.5px);
+      border-radius: 3px;
+    }
+  }
+}

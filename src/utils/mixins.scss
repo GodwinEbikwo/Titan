@@ -1,0 +1,56 @@
+@media (min-width: 64em) {
+}
+
+//640px, 1024px, 1400px
+$breakpoints-up: (
+  "medium": "40em",
+  "large": "64em",
+  "xlarge": "87.5em",
+);
+
+//480px, 768px, 1023px, 1399px
+$breakpoints-down: (
+  "vsmall": "30.0em",
+  "small": "47.9375em",
+  "medium": "64em",
+  "large": "87.4375em",
+);
+
+@mixin breakpoint-up($size) {
+  @media (min-width: map-get($breakpoints-up, $size )) {
+    @content;
+  }
+}
+@mixin breakpoint-down($size) {
+  @media (max-width: map-get($breakpoints-down, $size )) {
+    @content;
+  }
+}
+
+@mixin for-size($size) {
+  @if $size == iphoneX-only {
+    @media only screen and (min-device-width: 23.4375em) and (max-device-width: 23.45em) and (-webkit-min-device-pixel-ratio: 3) {
+      @content;
+    }
+  } @else if $size == phone-only {
+    @media (max-width: 37.4375em) {
+      @content;
+    }
+  } @else if $size == tablet-portrait-up {
+    @media (min-width: 37.5em) {
+      @content;
+    }
+  } @else if $size == tablet-landscape-up {
+    @media (min-width: 56.25em) {
+      @content;
+    }
+  } @else if $size == desktop-up {
+    @media (min-width: 75em) {
+      @content;
+    }
+  } @else if $size == big-desktop-up {
+    @media (min-width: 1800px) {
+      @content;
+    }
+  }
+}
