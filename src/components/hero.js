@@ -15,7 +15,7 @@ export default function Hero() {
               less interest.
             </p>
             <a href="/" className="btn">
-              Apply Now
+              Apply Now →
             </a>
           </div>
           <div className="right">

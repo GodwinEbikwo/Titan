@@ -1,5 +1,5 @@
 .hero {
-  min-height: 90vh;
+  min-height: 100vh;
   .grid {
     padding: 2rem 0 0 0;
     display: grid;
@@ -14,7 +14,7 @@
     // }
 
     .left {
-      padding: 4em 0em;
+      padding: 5em 0em;
       @include mq($from: mobile, $until: desktop) {
         padding: 2em 0 1em 0;
         display: flex;
