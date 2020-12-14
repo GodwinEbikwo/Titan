@@ -2,7 +2,7 @@ import styles from "./layout.module.scss";
 import Head from "next/head";
 import Header from "./header";
 
-export const siteTitle = "TweentyOne";
+export const siteTitle = "Titan";
 const previewImage = "/titaan.png";
 export const url = "https://tweentyone.vercel.app/";
 export const siteName = "Titaan Bank";
