@@ -4,9 +4,9 @@ import Header from "../src/components/header";
 
 export default function pageTwo() {
   return (
-    <>
+    <div data-scroll-section>
       <Header />
-      <section className="call" data-scroll-section>
+      <section className="call">
         <div className="container container--pall">
           <div className="c-grid">
             <div className="left">
@@ -41,6 +41,6 @@ export default function pageTwo() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
