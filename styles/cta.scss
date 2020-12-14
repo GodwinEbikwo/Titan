@@ -1,7 +1,15 @@
 .cta {
   position: relative;
   min-height: 60vh;
-  background: rgb(25, 25, 25);
+  background-image: linear-gradient(
+    to right,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #b465da 0%,
+    #cf6cc9 33%,
+    #ee609c 66%,
+    #ee609c 100%
+  );
   .cta_center {
     position: absolute;
     top: 50%;
@@ -41,7 +49,8 @@
       }
 
       .btn {
-        background-color: #ff5722;
+        background-color: #f7f7f7;
+        color: $whiteBlack;
       }
     }
   }
