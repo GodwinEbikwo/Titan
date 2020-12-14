@@ -29,7 +29,7 @@ export default function Header() {
         <nav className="container container--pall flex flex-jc-sb flex-ai-c">
           <Link href="/">
             <a className="dheader__logo">
-              <h4 style={{ color: "#333" }}>TITAN</h4>
+              <Image src="/titan.svg" width={96} height={27} alt="titan-logo" />
             </a>
           </Link>
 

@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Header from "../src/components/header";
 import { SmoothScrollProvider } from "../src/utils/SmoothScroll.utils";
 import Layout from "../src/components/layout";
 import Hero from "../src/components/hero";
@@ -15,7 +14,7 @@ export default function Home() {
     <SmoothScrollProvider options={{ smooth: true }}>
       <Layout>
         <Head>
-          <title>HorizonBank</title>
+          <title>Titaan</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Hero />
