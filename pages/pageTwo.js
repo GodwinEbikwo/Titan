@@ -41,7 +41,6 @@ export default function pageTwo() {
           </div>
         </div>
       </section>
-      <Bottom />
     </>
   );
 }
