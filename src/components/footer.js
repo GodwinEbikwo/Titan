@@ -9,10 +9,21 @@ export default function Footer() {
           <div className="block left">
             <div className="block-88">
               <a href="/" className="link">
-                <span>TITAN</span>
+                <Image src="/t-footer.svg" width={86} height={50} alt="image" />
               </a>
+
               <div className="block-82">
-                <Image src="/mc.svg" width={50} height={50} alt="image" />
+                <a href="/">
+                  <Image src="/mc.svg" width={33} height={33} alt="image" />
+                </a>
+                <a href="/">
+                  <Image
+                    src="/twitter.svg"
+                    width={26}
+                    height={26}
+                    alt="image"
+                  />
+                </a>
               </div>
             </div>
           </div>
