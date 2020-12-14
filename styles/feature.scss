@@ -146,22 +146,21 @@
           font-weight: 600;
           color: $whiteBlack;
           letter-spacing: -2px;
+          background: linear-gradient(
+            75deg,
+            rgb(137, 131, 186),
+            rgb(158, 152, 204) 20%,
+            rgb(194, 154, 190) 38%,
+            rgb(225, 151, 176) 56%,
+            rgb(255, 154, 125) 74%,
+            rgb(255, 180, 103) 84%,
+            rgb(255, 218, 142)
+          );
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
           @include mq($from: mobile, $until: tablet) {
             font-size: 2.4rem;
-            background: linear-gradient(
-              75deg,
-              rgb(137, 131, 186),
-              rgb(158, 152, 204) 20%,
-              rgb(194, 154, 190) 38%,
-              rgb(225, 151, 176) 56%,
-              rgb(255, 154, 125) 74%,
-              rgb(255, 180, 103) 84%,
-              rgb(255, 218, 142)
-            );
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            -moz-background-clip: text;
-            -moz-text-fill-color: transparent;
           }
           @include for-size(iphone5-6) {
             font-size: 2rem;

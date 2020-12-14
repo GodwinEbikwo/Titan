@@ -8,9 +8,9 @@ export default function Perktwo() {
       <div className="perktwo_container container container--pall">
         <div className="perktwo-left">
           <span className="perk-label">Savings</span>
-          <h2 className="perk-title">
+          <h1 className="perk-title">
             Unlimited daily cash back on everything
-          </h2>
+          </h1>
 
           <div className="save-features">
             <SaveFeature

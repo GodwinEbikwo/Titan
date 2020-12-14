@@ -8,7 +8,7 @@ export default function Cta() {
           <h1>Get started</h1>
           <h2>Apply right away and start using your card within minutes</h2>
           <a href="/" className="btn">
-            Apply now
+            Apply Now →
           </a>
         </div>
       </div>

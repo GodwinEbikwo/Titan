@@ -45,23 +45,20 @@
         margin-top: 1rem;
         margin-bottom: 0;
         padding: 0;
+        background: linear-gradient(
+          90deg,
+          rgb(144, 202, 90),
+          rgb(215, 214, 90) 50%,
+          rgb(218, 195, 85) 70%
+        );
 
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         @include mq($until: tablet) {
           font-size: 2.43rem;
           max-width: 95vw;
-          background: linear-gradient(
-            90deg,
-            rgb(144, 202, 90),
-            rgb(215, 214, 90) 50%,
-            rgb(218, 195, 85) 70%
-          );
-
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          -moz-background-clip: text;
-          -moz-text-fill-color: transparent;
         }
-
         @include for-size(iphone5-6) {
           font-size: 2rem;
         }

@@ -7,6 +7,8 @@ import Feature from "../src/components/feature";
 import Perktwo from "../src/components/Perktwo";
 import PerkThree from "../src/components/PerkThree";
 import Cta from "../src/components/Cta";
+import Headline from "../src/components/Headline";
+import Footer from "../src/components/footer";
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
         <Perktwo />
         <PerkThree />
         <Cta />
+        <Headline />
+        <Footer />
       </Layout>
     </SmoothScrollProvider>
   );

@@ -8,9 +8,9 @@ export default function Feature() {
         <div className="feature-right">
           <div className="feature-content">
             <span className="label">Perks</span>
-            <h2 className="bc-title">
+            <h1 className="bc-title">
               Zero fees at all, not even the hidden ones
-            </h2>
+            </h1>
 
             <div className="block-features">
               <FeatureBlock

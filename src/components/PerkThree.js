@@ -47,7 +47,7 @@ export default function PerkThree() {
 
         <div className="p3_left">
           <span className="p3-label">Security</span>
-          <h2 className="p3-title">Your card, your data, your business</h2>
+          <h1 className="p3-title">Your card, your data, your business</h1>
 
           <div className="p3_features">
             <P3Block
