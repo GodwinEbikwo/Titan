@@ -28,7 +28,7 @@ const Navbar = () => {
     width: "100%",
     backgroundColor: "white",
     textAlign: "center",
-    transition: "top 0.6s",
+    transition: "top 0.4s",
     boxShadow: "10px 10px 10px rgba(46, 54, 68, 0.03)",
   };
 
