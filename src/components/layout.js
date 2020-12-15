@@ -4,7 +4,7 @@ import Header from "./header";
 import Navbar from "./Nav";
 
 export const siteTitle = "Titan";
-const previewImage = "/titaan.png";
+const previewImage = "/titan.png";
 export const url = "https://titaan.vercel.app/";
 export const siteName = "Titaan Bank";
 export const description =
