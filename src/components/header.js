@@ -24,7 +24,7 @@ export default function Header() {
     scroll && scroll.scrollTo("#faq");
   };
   return (
-    <section data-scroll-section>
+    <section>
       <div className="dheader">
         <nav className="container container--pall flex flex-jc-sb flex-ai-c">
           <Link href="/">
@@ -46,9 +46,9 @@ export default function Header() {
             <a href="#contact" onClick={goToFAQ}>
               FAQ's
             </a>
-            <a href="#contact" onClick={goToFAQ} className="btn">
+            {/* <a href="#contact" onClick={goToFAQ} className="btn">
               Dowload App →
-            </a>
+            </a> */}
           </div>
         </nav>
       </div>

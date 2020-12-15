@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { SmoothScrollProvider } from "../src/utils/SmoothScroll.utils";
-import Layout from "../src/components/layout";
+import Layout, { siteTitle } from "../src/components/layout";
 import Hero from "../src/components/hero";
 import Feature from "../src/components/feature";
 import Perktwo from "../src/components/Perktwo";
@@ -14,7 +14,7 @@ export default function Home() {
     <SmoothScrollProvider options={{ smooth: true }}>
       <Layout>
         <Head>
-          <title>Titaan</title>
+          <title>{siteTitle}</title>
           <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -35,7 +35,7 @@ export default function Home() {
           <link rel="manifest" href="/site.webmanifest" />
           <meta
             name="description"
-            content="Titan is the most secure and transparent bank for modern day individuals "
+            content="Titan is the most secure and transparent bank for modern day individuals"
           />
         </Head>
         <Hero />

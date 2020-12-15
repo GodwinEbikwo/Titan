@@ -1,10 +1,11 @@
 import styles from "./layout.module.scss";
 import Head from "next/head";
 import Header from "./header";
+import Navbar from "./Nav";
 
 export const siteTitle = "Titan";
 const previewImage = "/titaan.png";
-export const url = "https://tweentyone.vercel.app/";
+export const url = "https://titaan.vercel.app/";
 export const siteName = "Titaan Bank";
 export const description =
   "Titan is the most secure and transparent bank for modern day individuals ";
@@ -42,7 +43,7 @@ export default function Layout({ children, pageTitle, description }) {
         <meta property="og:description" content={description} key="ogdesc" />
         <title>{siteTitle}</title>
       </Head>
-      <Header />
+      <Navbar />
       <main className={styles.main}>{children}</main>
     </div>
   );

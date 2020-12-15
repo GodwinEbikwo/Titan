@@ -1,46 +1,168 @@
 import React from "react";
 import Image from "next/image";
 import Header from "../src/components/header";
+import Navbar from "../src/components/Nav";
+import Hero from "../src/components/hero";
+import Feature from "../src/components/feature";
 
 export default function pageTwo() {
   return (
     <div data-scroll-section>
-      <Header />
-      <section className="call">
-        <div className="container container--pall">
-          <div className="c-grid">
-            <div className="left">
-              <h1>The most transparent and secure bank ever.</h1>
-              <p>
-                With Titan, we completely reinvented the credit card. Your
-                information lives on your iPhone, beautifully laid out and easy
-                to understand
-              </p>
-              <a href="/" className="btn">
-                Get Started
-              </a>
-            </div>
-            <div className="right">
-              <div className="circle">
-                <Image src="/one.jpg" width={640} height={960} alt="image" />
-              </div>
+      <Navbar />
+      <Hero />
+      <Feature />
+    </div>
+  );
+}
 
-              <div className="circle right">
-                <Image src="/two.jpg" width={500} height={799} alt="image" />
-              </div>
-
-              <div className="circle bottomleft">
-                <Image src="/4.jpg" width={250} height={200} alt="image" />
-                {/* <Image src="/7.jpg" width={2550} height={3188} alt="image" /> */}
-              </div>
-
-              <div className="circle bottomright">
-                <Image src="/6.jpg" width={2814} height={3518} alt="image" />
+{
+  /* <div className="wf-grid">
+          <div className="one">
+            <div
+              className="img-container"
+              id="container"
+              data-scroll
+              data-scroll-speed="2"
+            >
+              <div className="block" data-scroll data-scroll-speed="-2">
+                <Image
+                  src="https://res.cloudinary.com/dqv9mfbvt/image/upload/v1607610145/Screen_Shot_2020-12-10_at_14.20.49_ra4xlb.png"
+                  width={640}
+                  height={427}
+                  className="s-img"
+                />
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
-  );
+
+          <div className="one">
+            <div
+              className="img-container"
+              id="container"
+              data-scroll
+              data-scroll-speed="2"
+            >
+              <div className="block" data-scroll data-scroll-speed="-2">
+                <Image
+                  src="https://res.cloudinary.com/dqv9mfbvt/image/upload/v1606825939/federico-di-dio-photography-haO04L8LoaU-unsplash_vx4xf6.jpg"
+                  width={640}
+                  height={427}
+                  className="s-img"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="one">
+            <div
+              className="img-container"
+              id="container"
+              data-scroll
+              data-scroll-speed="2"
+            >
+              <div className="block" data-scroll data-scroll-speed="-2">
+                <Image
+                  src="https://res.cloudinary.com/dqv9mfbvt/image/upload/v1606825939/federico-di-dio-photography-haO04L8LoaU-unsplash_vx4xf6.jpg"
+                  width={640}
+                  height={427}
+                  className="s-img"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="one">
+            <div
+              className="img-container"
+              id="container"
+              data-scroll
+              data-scroll-speed="2"
+            >
+              <div className="block" data-scroll data-scroll-speed="-2">
+                <Image
+                  src="https://res.cloudinary.com/dqv9mfbvt/image/upload/v1606825939/federico-di-dio-photography-haO04L8LoaU-unsplash_vx4xf6.jpg"
+                  width={640}
+                  height={427}
+                  className="s-img"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="one">
+            <div
+              className="img-container"
+              id="container"
+              data-scroll
+              data-scroll-speed="2"
+            >
+              <div className="block" data-scroll data-scroll-speed="-2">
+                <Image
+                  src="https://res.cloudinary.com/dqv9mfbvt/image/upload/v1606825939/federico-di-dio-photography-haO04L8LoaU-unsplash_vx4xf6.jpg"
+                  width={640}
+                  height={427}
+                  className="s-img"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="two">
+            <div
+              className="img-container"
+              id="container"
+              data-scroll
+              data-scroll-speed="2"
+            >
+              <div className="block" data-scroll data-scroll-speed="-2">
+                <Image
+                  src="https://res.cloudinary.com/dqv9mfbvt/image/upload/v1606825939/federico-di-dio-photography-haO04L8LoaU-unsplash_vx4xf6.jpg"
+                  width={640}
+                  height={427}
+                  className="s-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div> */
+}
+
+{
+  /* secondGrid */
+}
+{
+  /* <div className="long">
+          <div className="l_one">
+            <div
+              className="img-container"
+              id="container"
+              data-scroll
+              data-scroll-speed="2"
+            >
+              <div className="block" data-scroll data-scroll-speed="-2">
+                <Image
+                  src="/street.jpg"
+                  width={640}
+                  height={960}
+                  className="s-img"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="l_two">
+            <div
+              className="img-container"
+              id="container"
+              data-scroll
+              data-scroll-speed="2"
+            >
+              <div className="block" data-scroll data-scroll-speed="-2">
+                <Image
+                  src="/street.jpg"
+                  width={640}
+                  height={960}
+                  className="s-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div> */
 }
